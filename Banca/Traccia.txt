@@ -1,0 +1,23 @@
+ESERCIZIO 1
+
+Simulare il comportamento di una Banca, all'interno della quale esitotno dei contibancari.
+La classe Banca ha come attributi il nome è la locatlità e in piu memorizza in una opportuna
+struttura dati l'insieme dei conti aperti presso la banca stessa. Il conto ha invece i segguenti attributi:
+Codice
+Intestatario
+Saldo
+e memorizza in una opportua struttra dati le operazioni eseguite (deposito o prelievo) tenendo traccia Simularedel tipo
+di operazione (D o P) che dell'importo. Sono da memorizzare solo le ultime 10 operazioni eseguite!
+
+ESERCIZIO 1
+Simulare il comportamento di una Banca, all’interno della quale esistono dei contibancari. La classe Banca ha come attributi il nome e la località e 
+in più memorizza in una opportuna struttura dati l’insieme dei conti aperti presso la banca stessa. Il conto ha invece i seguenti attributi: codice,
+intestatario, saldo e memorizza in una opportuna struttura dati le operazioni eseguite (deposito o prelievo) tenendo traccia sia del tipo di operazione 
+(D o P) che dell’importo. Sono da memorizzare solo le ultime 10 operazioni eseguite!
+
+Realizzare quindi un main dove si può creare un oggetto Banca e alcuni oggetti Conto. Sarà poi necessario con uno dei conti eseguire le operazioni possibili (deposito, prelievo, verifica movimenti).
+
+
+Classe Banca
+Classe Conto
+Classe Op (importo, tipo)
