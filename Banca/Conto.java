@@ -51,8 +51,8 @@ public class Conto {
 		if(importo <= saldo){
 			this.saldo -= importo;
 			Operazione op = new Operazione(importo, "P");
-			if(count == 10){
-				for(int i = 0; i < operazioni.length; i++){
+			if(count == 9){
+				for(int i = 0; i < operazioni.length-1; i++){
 					operazioni[i] = operazioni[i+1];
 				}
 				operazioni[count] = op;
@@ -70,8 +70,8 @@ public class Conto {
 		if(importo > 0){
 			saldo += importo;
 			Operazione op = new Operazione(importo, "D");
-			if(count == 10){
-				for(int i = 0; i < operazioni.length; i++){
+			if(count == 9){
+				for(int i = 0; i < operazioni.length-1; i++){
 					operazioni[i] = operazioni[i+1];
 				}
 				operazioni[count] = op;
@@ -82,7 +82,6 @@ public class Conto {
 		}else{
 			System.out.println("Importo non valido");
 		}
-
 	}
 
 	public void verificaMovimenti(){

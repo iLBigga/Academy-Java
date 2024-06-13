@@ -17,15 +17,25 @@ public class Main {
 		// conto2.mostraInfo();
 		
 		
-		conto1.prelievo(290.99);
+		conto1.prelievo(1.99);
 		conto1.prelievo(45.99);
 		conto1.prelievo(1102.99);
 		conto1.deposito(11102.99);
+		conto1.deposito(11102.99);
+		conto1.deposito(424.99);
+		conto1.deposito(41.99);
+		conto1.deposito(2.99);
+		conto1.deposito(6.99);
+		conto1.deposito(11102.99);
+		conto1.deposito(5.99);
+		conto1.deposito(63.99);
+		conto1.deposito(2341.99);
+
 
 		// conto1.deposito(290.99);
-		conto1.mostraInfo();
+		// conto1.mostraInfo();
 		conto1.verificaMovimenti();
 
-		banca1.mostraConti();
+		// banca1.mostraConti();
 	}
 }
