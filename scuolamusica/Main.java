@@ -25,6 +25,6 @@ public class Main {
 		corsoPratica2.addStudente(st3);
 
 
-		System.out.println(corsoTeoria1.toString());
+		System.out.println(corsoPratica1.toString());
 	}
 }

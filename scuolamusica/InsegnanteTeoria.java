@@ -14,6 +14,6 @@ public class InsegnanteTeoria extends Insegnante{
 	}
 
 	public String toString(){
-		return super.toString() + "  Specializzazione: " + specializzazioneTeoria; 
+		return super.toString() + "  Specializzazione: " + specializzazioneTeoria + ","; 
 	}
 }

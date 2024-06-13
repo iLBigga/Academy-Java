@@ -15,6 +15,6 @@ public class InsegnantePratica extends Insegnante{
 
 	@Override
 	public String toString(){
-		return super.toString() + "  Specializzazione: " + specializzazionePratica; 
+		return super.toString() + "  Specializzazione: " + specializzazionePratica + ","; 
 	}
 }
